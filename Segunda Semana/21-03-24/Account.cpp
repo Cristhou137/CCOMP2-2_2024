@@ -13,6 +13,10 @@ int main() {
 
     string theName;
 
+    getline(cin, theName);
+
+    myAccount.setName(theName);
+
     cout << "Name in object myAccount is: "
     << myAccount.getName() << endl;
 }
